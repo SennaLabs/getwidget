@@ -107,7 +107,7 @@ class _GFCheckboxState extends State<GFCheckbox> {
                         : widget.inactiveBgColor
                     : Colors.grey,
                 borderRadius: widget.type == GFCheckboxType.basic
-                    ? BorderRadius.circular(3)
+                    ? BorderRadius.circular(8)
                     : widget.type == GFCheckboxType.circle
                         ? BorderRadius.circular(50)
                         : BorderRadius.zero,
